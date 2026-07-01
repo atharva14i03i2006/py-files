@@ -5,8 +5,7 @@ Right Triangle
 class Right_triangle():
     n = int(input("Enter a number : "))
     for i in range(1, n+1):
-        print("*" * i, end ="\n")
-        i += 1
+        print("*" * i)
 Right_triangle()
 
 
@@ -73,3 +72,45 @@ class Diamond():
         print(" " * (n-i) + "*" * (2*i-1))
     for j in range(1,n):
         print(" " * j + "*" * (2*(n-j)-1))
+
+'''
+Number Triangle
+'''
+
+class Number_Triangle():
+    n = int(input("Enter a number : "))
+    for i in range(1,n+1):
+        print(str(i)*(i))
+
+
+'''
+Inverted_Number_Triangle
+'''
+
+class Inverted_Number_Triangle():
+    n = int(input("Enter a number : "))
+    for i in range(n):
+        for j in range(1, (n-i+1)):
+            print(j, end ="")
+        print()
+
+'''
+Inverted Inverse Number Triangle
+'''
+class Inverted_Inverse_Number_Triangle():
+    n = int(input("Enter a number : "))
+    for i in range(n):
+        for j in range((n-i),0,-1):
+            print(j, end = "")
+        print()
+
+'''
+Inverse_Number_triangle
+'''
+
+class Inverse_Number_Triangle():
+    n = int(input("Enter a number : "))
+    for i in range(1, n+1):
+        for j in range(n,(n-i),-1):
+            print(str(j),end="")
+        print()
