@@ -75,6 +75,7 @@ class Diamond():
 
 '''
 Number Triangle
+
 '''
 
 class Number_Triangle():
@@ -85,6 +86,7 @@ class Number_Triangle():
 
 '''
 Inverted_Number_Triangle
+
 '''
 
 class Inverted_Number_Triangle():
@@ -96,6 +98,7 @@ class Inverted_Number_Triangle():
 
 '''
 Inverted Inverse Number Triangle
+
 '''
 class Inverted_Inverse_Number_Triangle():
     n = int(input("Enter a number : "))
@@ -106,6 +109,7 @@ class Inverted_Inverse_Number_Triangle():
 
 '''
 Inverse_Number_triangle
+
 '''
 
 class Inverse_Number_Triangle():

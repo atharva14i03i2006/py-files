@@ -1,0 +1,18 @@
+list = []
+list.append(int(input("Enter the number : ")))
+list.append(int(input("Enter the number : ")))
+list.append(int(input("Enter the number : ")))
+list.append(int(input("Enter the number : ")))
+list.append(int(input("Enter the number : ")))
+list.append(int(input("Enter the number : ")))
+list.append(int(input("Enter the number : ")))
+list.sort()
+
+print(list)
+
+class Number_sequence():
+    diff = list[1] - list[0]
+    next_number = list[-1] + diff
+    print("The next number in the sequence is : ", next_number)
+
+Number_sequence()
