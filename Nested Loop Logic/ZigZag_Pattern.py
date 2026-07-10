@@ -8,3 +8,5 @@ for i in range(3):
         else:
             row += "  "
     print(row)
+
+    # there is glitch in this code is u can fix just help me
